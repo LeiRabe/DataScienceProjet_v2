@@ -22,4 +22,3 @@ df["Tokens"] = clean_token_string_list
 print("//////////////////")
 print(df["Tokens"])
 books_tokenized = df.to_csv(r'D:\DANT\DataScience\DataScienceProject\test\book_tokenized_chunk1.csv')
-
